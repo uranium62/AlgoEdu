@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgoEdu.Sort", "AlgoEdu.Sor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgoEdu.Graph", "AlgoEdu.Graph\AlgoEdu.Graph.csproj", "{58AF52F4-28C5-44CF-8CCD-FA6945F48876}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgoEdu.CreakingTheCoding", "AlgoEdu.CreakingTheCoding\AlgoEdu.CreakingTheCoding.csproj", "{7DDC97AE-5182-4AFA-9755-DB4CBB42F817}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgoEdu.Princeton", "AlgoEdu.Princeton\AlgoEdu.Princeton.csproj", "{53293D27-37CF-47D5-84EC-666A829ECA89}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +35,22 @@ Global
 		{58AF52F4-28C5-44CF-8CCD-FA6945F48876}.Release|Any CPU.Build.0 = Release|Any CPU
 		{58AF52F4-28C5-44CF-8CCD-FA6945F48876}.Release|x64.ActiveCfg = Release|Any CPU
 		{58AF52F4-28C5-44CF-8CCD-FA6945F48876}.Release|x64.Build.0 = Release|Any CPU
+		{7DDC97AE-5182-4AFA-9755-DB4CBB42F817}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DDC97AE-5182-4AFA-9755-DB4CBB42F817}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DDC97AE-5182-4AFA-9755-DB4CBB42F817}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7DDC97AE-5182-4AFA-9755-DB4CBB42F817}.Debug|x64.Build.0 = Debug|Any CPU
+		{7DDC97AE-5182-4AFA-9755-DB4CBB42F817}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DDC97AE-5182-4AFA-9755-DB4CBB42F817}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DDC97AE-5182-4AFA-9755-DB4CBB42F817}.Release|x64.ActiveCfg = Release|Any CPU
+		{7DDC97AE-5182-4AFA-9755-DB4CBB42F817}.Release|x64.Build.0 = Release|Any CPU
+		{53293D27-37CF-47D5-84EC-666A829ECA89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53293D27-37CF-47D5-84EC-666A829ECA89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53293D27-37CF-47D5-84EC-666A829ECA89}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{53293D27-37CF-47D5-84EC-666A829ECA89}.Debug|x64.Build.0 = Debug|Any CPU
+		{53293D27-37CF-47D5-84EC-666A829ECA89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53293D27-37CF-47D5-84EC-666A829ECA89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53293D27-37CF-47D5-84EC-666A829ECA89}.Release|x64.ActiveCfg = Release|Any CPU
+		{53293D27-37CF-47D5-84EC-666A829ECA89}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
