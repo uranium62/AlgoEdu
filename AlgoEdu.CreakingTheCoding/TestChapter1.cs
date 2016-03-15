@@ -176,22 +176,22 @@ namespace AlgoEdu.CreakingTheCoding
         public void Calc()
         {
             var eps = 0.00000001; 
-            //var str1 = "23 + 37 + 22 + 40";
-            //var str2 = "20 + 34 * 2 / 4 + 100";
-            //var str3 = "20 + 34 * 2 / 4 + 100 / 2";
-            //var str4 = "3,5 + 7,50 * 2";
+            var str1 = "23 + 37 + 22 + 40";
+            var str2 = "20 + 34 * 2 / 4 + 100";
+            var str3 = "20 + 34 * 2 / 4 + 100 / 2";
+            var str4 = "3,5 + 7,50 * 2";
             var str5 = "(20 + 8) * 3 * (40 + 20 * 2 * 2 + 10 * (3 * (2-1)))";
 
-            //var res1 = Chapter1Utils.Calc(str1);
-            //var res2 = Chapter1Utils.Calc(str2);
-            //var res3 = Chapter1Utils.Calc(str3);
-            //var res4 = Chapter1Utils.Calc(str4);
+            var res1 = Chapter1Utils.Calc(str1);
+            var res2 = Chapter1Utils.Calc(str2);
+            var res3 = Chapter1Utils.Calc(str3);
+            var res4 = Chapter1Utils.Calc(str4);
             var res5 = Chapter1Utils.Calc(str5);
 
-            //Assert.That(Math.Abs(res1 - 122) < eps);
-            //Assert.That(Math.Abs(res2 - 137) < eps);
-            //Assert.That(Math.Abs(res3 - 87) < eps);
-            //Assert.That(Math.Abs(res4 - 18.5) < eps);
+            Assert.That(Math.Abs(res1 - 122) < eps);
+            Assert.That(Math.Abs(res2 - 137) < eps);
+            Assert.That(Math.Abs(res3 - 87) < eps);
+            Assert.That(Math.Abs(res4 - 18.5) < eps);
             Assert.That(Math.Abs(res5 - 18.5) < eps);
 
         }
